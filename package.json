@@ -4,7 +4,7 @@
   "repository": "https://github.com/Vivekbyri/spinner0",
   "main": "spinner-element.js",
   "author": "vivek",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "dependencies": {
     "@polymer/paper-spinner": "^3.0.2",
     "@polymer/polymer": "^3.0.0"
