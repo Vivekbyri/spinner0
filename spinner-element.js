@@ -1,6 +1,5 @@
-import 'https://cdnjs.cloudflare.com/ajax/libs/polymer/0.5.6/polymer.min.js';
-import {html, PolymerElement} from "https://unpkg.com/@polymer/polymer@latest/polymer-element.js?module";
-import 'https://cdn.jsdelivr.net/npm/@polymer/paper-spinner@3.0.2/paper-spinner.min.js';
+import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
+// import '@polymer/paper-spinner/paper-spinner.js';
 
 /**
  * `spinner-element`
@@ -18,7 +17,9 @@ class SpinnerElement extends PolymerElement {
           display: block;
         }
       </style>
-      <paper-spinner active></paper-spinner>
+      <center>
+        <paper-spinner active></paper-spinner>
+      </center>
     `;
   }
   static get properties() {
